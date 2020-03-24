@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Header from '../component/Header'
+import Button from '../component/Button'
 
 const Home = () => (
   <div className="container">
@@ -44,6 +46,10 @@ const Home = () => (
             Instantly deploy your Next.js site to a public URL with ZEIT Now.
           </p>
         </a>
+      </div>
+      <div>
+        <Header />
+        <Button />
       </div>
     </main>
 
